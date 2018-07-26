@@ -6,5 +6,5 @@ setup(
     author='Ramsey Barghouti',
     packages=['kerasworkbench',],
     license='GPL-3.0',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
 )
