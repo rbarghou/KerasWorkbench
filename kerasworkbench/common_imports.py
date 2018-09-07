@@ -21,6 +21,7 @@ from librosa import (
     amplitude_to_db,
     stft,
     istft,
+    load,
 )
 
 from librosa.display import (
