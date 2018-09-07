@@ -10,6 +10,12 @@ setup(
     long_description=open('README.md').read(),
     install_requires=[
         "keras",
-        "librosa"
+        "librosa",
+        "numpy",
+        "scipy",
+        "tensorflow",
+        "keras",
+        "matplotlib",
+        "pandas",
     ]
 )
