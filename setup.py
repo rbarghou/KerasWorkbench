@@ -23,7 +23,7 @@ setup(
         "matplotlib",
         "pandas",
     ],
-    package_data=[
-        {"kerasworkbench.data": ["audio/*.mp3"]}
-    ]
+    package_data={
+        "kerasworkbench.data": ["audio/*.mp3"]
+    }
 )
