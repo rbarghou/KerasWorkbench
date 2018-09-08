@@ -22,5 +22,8 @@ setup(
         "keras",
         "matplotlib",
         "pandas",
+    ],
+    data_files=[
+        'kerasworkbench/data/audio/*.mp3',
     ]
 )
