@@ -1,6 +1,6 @@
-from .pitch import pitch
+from .note import note
 
 
 __all__ = [
-    pitch,
+    note,
 ]
