@@ -24,7 +24,7 @@ setup(
         "pandas",
     ],
     data_files=[
-        ("",
+        ("kerasworkbench/data/audio",
             ('kerasworkbench/data/audio/15488__djgriffin__tibetan-chant-4-colargol-2.mp3',
              'kerasworkbench/data/audio/17643__twistedlemon__happy-birthday.mp3',
              'kerasworkbench/data/audio/19023__danglada__cough.mp3',
