@@ -27,3 +27,6 @@ from librosa import (
 from librosa.display import (
     specshow
 )
+
+import matplotlib
+import matplotlib.pyplot as plt
