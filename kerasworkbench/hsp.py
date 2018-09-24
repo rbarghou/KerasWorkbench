@@ -13,9 +13,10 @@ def hsp(spectrogram, num_harmonics):
     :param num_harmonics: The number of harmonics to consider in the HSP analysis
     :return result: A real array with the same shape as the spectrogram
     """
+    r_spectrogram = np.abs(spectrogram)
     return np.array([
         np.product(
-            np.abs(spectrogram)[::f0, :][:num_harmonics, :],
+            r_spectrogram[f0::f0, :][:num_harmonics, :],
             axis=0
         )
         for f0 in range(1, spectrogram.shape[0] + 1)
